@@ -1,21 +1,33 @@
 using UnityEngine;
 
-public class player: monobehaviour
+public class player : MonoBehaviour
+{
 
-private int numero:
-{public float velocidade * 40:
+    private int numero;
+
+
+    public float velocidade;
+
     void Start()
     {
-        numero= 0:
+        numero = 0;
     }
 
     void Update()
     {
         //Debug/Log(numero);
-       //numero = numero + 1;1f (Input.getkey(KeyCode.A))
-    1f(Input.GetKey(KeyCode.A))
-    GameObject.transfora.position * +new vercto3(velocidade 0, 0);
-    
-    1f (Input.GetKey(KeyCode.D))
-    
-    
+        //numero = numero + 1;1f (Input.getkey(KeyCode.A))
+        
+        if(Input.GetKey(KeyCode.A))
+        {
+            gameObject.transform.position += new Vector3 (velocidade *Time.deltaTime, 0, 0);
+        }
+
+        if(Input.GetKey(KeyCode.D))
+        {
+            gameObject.transform.position += new Vector3 (-velocidade *Time.deltaTime, 0, 0);
+        }
+
+
+    }
+}
