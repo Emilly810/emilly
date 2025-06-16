@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b4c412cb02883b34a8b9b058a9010172
+guid: 3f5397990cbb6bc47b759dee97a535e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5444991529754661386
-    second: depositphotos_625586134-stock-illustration-comfortable-sofa-living-room-flat_0
+      213: 1323643868629444917
+    second: tilemap-backgrounds_packed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: depositphotos_625586134-stock-illustration-comfortable-sofa-living-room-flat_0
+      name: tilemap-backgrounds_packed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 428
+        width: 192
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a02990092fe709b40800000000000000
-      internalID: 5444991529754661386
+      spriteID: 53928c6e5178e5210800000000000000
+      internalID: 1323643868629444917
       vertices: []
       indices: 
       edges: []
