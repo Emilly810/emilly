@@ -1,20 +1,5 @@
-using system;
-using Unity.VisualScriptimg;
+using System;
 using UnityEngine;
-
-   plublic class bau : MonoBehaviour
-   {
-       public GameObject texto;
-
-
-       private void OncollisionEnter2D(collision2D other)
-       {
-           if (other.gameObject.Comparetag(*player*))
-       }
-
-       using System;
-       using UnityEngine;
-
        public class Chave : MonoBehaviour
        {
            public GameObject textoDeVitoria;
